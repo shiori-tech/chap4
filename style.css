@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%; /* 横幅いっぱい */
+  height: 50px; /* 高さ120px */
+  background-color: red; /* 背景色red */
+}
+.main-visual{
+   width: 100%; /* 横幅いっぱい */
+  height: 500px; /* 高さ120px */
+  background-color: orange; /* 背景色red */
+}
+.main{
+  width: 100%; /* 横幅いっぱい */
+  height: 1400px; /* 高さ120px */
+   display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+}
+.main-center1{
+  width: 230px; /* 横幅いっぱい */
+  height: 1400px; /* 高さ120px */
+  background-color: lightgreen; 
+}
+.main-center{
+  width: 500px; /* 横幅いっぱい */
+  height: 1400px; /* 高さ120px */
+  background-color: green; 
+}
+.main-center2{
+  width: 230px; /* 横幅いっぱい */
+  height: 1400px; /* 高さ120px */
+  background-color: lightgreen; 
+}
